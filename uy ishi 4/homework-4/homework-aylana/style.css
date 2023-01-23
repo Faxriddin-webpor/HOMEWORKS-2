@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: aquamarine;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.box {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: relative;
+  background-image: url(./images/pexels-felix-mittermeier-956981.jpg);
+  animation-name: myjove;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes myjove {
+  0% {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.box > img {
+  margin-top: -100px;
+  display: inline;
+}
+
+.cardbox {
+  margin: 100px;
+  border-radius: 50%;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+    transform: rotate(-360deg);
+  }
+  100% {
+    left: 0px;
+  }
+}

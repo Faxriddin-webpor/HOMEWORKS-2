@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+.grid-container {
+  margin: 0 auto;
+  background-color: blue;
+  display: grid;
+  height: 90vh;
+  width: 90vw;
+  grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+  grid-template-rows: 22.5vh 22.5vh 22.5vh 22.5vh;
+  grid-template-areas:
+    "header1 header2 header3 header3"
+    "header1 header4 header5 header6"
+    "header7 header8 header5 header9"
+    "header10 header8 header11 header11";
+}
+
+.item {
+  margin: 10px;
+  text-align: center;
+
+  color: blue;
+  background-color: gainsboro;
+}
+
+.grid-item-1 {
+  grid-area: header1;
+  padding-top: 150px;
+}
+.grid-item-2 {
+  grid-area: header2;
+  padding-top: 65px;
+}
+.grid-item-3 {
+  grid-area: header3;
+  padding-top: 65px;
+}
+.grid-item-4 {
+  grid-area: header4;
+  padding-top: 65px;
+}
+.grid-item-5 {
+  grid-area: header5;
+  padding-top: 150px;
+}
+.grid-item-6 {
+  grid-area: header6;
+  padding-top: 65px;
+}
+.grid-item-7 {
+  grid-area: header7;
+  padding-top: 65px;
+}
+.grid-item-8 {
+  grid-area: header8;
+  padding-top: 150px;
+}
+.grid-item-9 {
+  grid-area: header9;
+  padding-top: 65px;
+}
+.grid-item-10 {
+  grid-area: header10;
+  padding-top: 65px;
+}
+.grid-item-11 {
+  grid-area: header11;
+  padding-top: 65px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 100px 10px 100px;
+}
+h1 {
+  color: white;
+}

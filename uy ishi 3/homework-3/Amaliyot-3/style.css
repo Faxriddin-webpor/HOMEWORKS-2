@@ -1,0 +1,64 @@
+.container {
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+.box {
+  width: 500px;
+  height: 480px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: silver;
+}
+
+.textbox {
+  width: 453px;
+  height: 200px;
+  padding: 0 22px;
+  overflow: auto;
+}
+
+.box > img {
+  border-radius: 20px 20px 0px 0px;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: blueviolet;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 0px 88px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: aquamarine;
+  border-radius: 0px 88px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
+  border-radius: 0px 88px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: rgb(0, 255, 145);
+}

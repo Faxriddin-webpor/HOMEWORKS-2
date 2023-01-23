@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 0px 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox {
+  width: 700px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+  margin-top: 100px;
+  margin-bottom: 106px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+p {
+  margin-bottom: 48px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 326.9px;
+  height: 97.02px;
+  padding: 20px;
+  background: rgba(217, 217, 217, 0.02);
+  box-shadow: 0px 69.7723px 27.7504px rgba(0, 0, 0, 0.02),
+    0px 38.8505px 23.786px rgba(0, 0, 0, 0.07),
+    0px 17.4431px 17.4431px rgba(0, 0, 0, 0.12),
+    0px 3.96434px 9.51441px rgba(0, 0, 0, 0.13), 0px 0px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 76.5721px;
+  margin-left: 150px;
+}
+
+.btn > img {
+  border-radius: 50%;
+  position: relative;
+  animation-name: myjove;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes myjove {
+  0% {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+a {
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.imgbox {
+  margin-top: 50px;
+  width: 700px;
+  height: 700px;
+  background-image: url(./images/image\ 1.png);
+  border-radius: 50%;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes mymove {
+  0% {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0px;
+  }
+}

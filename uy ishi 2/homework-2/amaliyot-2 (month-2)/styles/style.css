@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  height: 240px;
+}
+.wrapper {
+  width: 301px;
+  height: 69px;
+  background-color: #ffffff;
+  box-shadow: 2px 8px 20px rgba(203, 203, 203, 0.35);
+  border-radius: 30px;
+  margin-top: 10%;
+  padding-top: 6px;
+  padding-left: 10px;
+  display: flex;
+}
+
+.wrapper .text_section {
+  margin-left: 13px;
+  align-items: center;
+}
+
+.wrapper .text_section h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.wrapper .text_section p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff6565;
+}
+
+.dropdown_main_body {
+  position: absolute;
+  width: 301px;
+  display: none;
+  background: #ffffff;
+  box-shadow: 2px 8px 20px rgba(203, 203, 203, 0.35);
+  border-radius: 30px;
+
+  margin-top: 5px;
+}
+
+.dropdown_main_body .drp_body_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 31px 10px 24px;
+}
+.dropdown_main_body .drp_body_item > img {
+  width: 22px;
+  height: 22px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+  color: #494949;
+}
+
+.container:hover .dropdown_main_body {
+  display: block;
+}
+
+.drp_body_item:hover {
+  background-color: silver;
+}
+
+.item1:hover {
+  border-radius: 30px 30px 0 0;
+}
+
+.item3:hover {
+  border-radius: 0 0 30px 30px;
+}

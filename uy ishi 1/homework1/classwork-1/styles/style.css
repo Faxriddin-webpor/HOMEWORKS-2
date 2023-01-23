@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  background-color: rgba(0, 255, 255, 0.155);
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 40vw 20vw 20vw 20vw;
+  grid-template-rows: 10vh 40vh 40vh 10vh;
+  grid-template-areas:
+    "navbar navbar navbar navbar"
+    "aside main main main"
+    "aside main1 main2 saidbar"
+    "footer footer footer footer";
+}
+
+.item {
+  margin: 7px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.grid-item-1 {
+  background-color: green;
+  grid-area: navbar;
+}
+.grid-item-2 {
+  background-color: greenyellow;
+  grid-area: aside;
+  padding-top: 250px;
+}
+.grid-item-3 {
+  background-color: orange;
+  grid-area: main;
+  padding-top: 150px;
+}
+.grid-item-4 {
+  background-color: rgba(255, 166, 0, 0.669);
+  grid-area: main1;
+  padding-top: 100px;
+}
+.grid-item-5 {
+  background-color: rgba(255, 166, 0, 0.66);
+  grid-area: main2;
+  padding-top: 100px;
+}
+.grid-item-6 {
+  background-color: rgba(255, 166, 0, 0.669);
+  grid-area: saidbar;
+  padding-top: 100px;
+}
+.grid-item-7 {
+  background-color: green;
+  grid-area: footer;
+}
